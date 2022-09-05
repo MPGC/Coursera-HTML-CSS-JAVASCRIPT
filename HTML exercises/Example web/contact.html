@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="resources/favicon.png" type="image/x-icon">
+    <title>Contacto</title>
+    <style>
+        body{
+            background-color: #F1F1F1;
+            padding-left: 2vw;
+            padding-top: 11vh;
+        }
+        
+
+
+        #input_box{
+            height: 76vh;
+            width: 30vw;
+            background-color: white;
+            padding-left: 5vw;
+
+        }
+        #buttons_box{
+            height: 76vh;
+            width: 30vw;
+            background-image: linear-gradient(1deg, #00B7B3, #3E9874);
+            padding-left: 5vw;
+
+        }
+        #txt1{
+            color: #9E949B;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #txt2{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .inputes{
+            border: none;
+            border-bottom: 2px solid gray ;
+            width: 25vw;
+            height: 6vh;
+            font-size: 1.3em;
+             
+        }
+        #btn_registro{
+            width: 10vw;
+            height: 6vh;
+            border: none;
+            font-size: 1.3em;
+            color: white;
+            background-color: #FE700A;
+            border-radius: 2px;
+
+        }
+        .botones{
+            width: 25vw;
+            height: 6vh;
+            border: none;
+            border-radius: 2px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            text-align: left;
+        }
+        .cajon{
+            display: inline-block;
+        }
+        #centro{
+            position: absolute;
+            top: 46vh;
+            left: 35.5vw;
+            height: 9vh;
+            width: 9vh;
+            background-color: #F1F1F1;
+            box-shadow: 2px 2px 2px gray ;
+            border-radius: 100%;
+            border: none;
+            font-size: 1.5em;
+            font-weight: bolder;
+
+
+        }
+        #imagenes{
+            float: right;
+            position: absolute;
+            top: 11vh;
+            right: 5vw;
+        }
+        #fb_btn{
+            background-color: #2C599C;
+            color: white
+        }
+        #twt_btn{
+            background-color: #01AEF2;
+            color: white;
+        }
+        #email_btn{
+            background-color: #00D5CF;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="contact_box">
+        <table>
+            <form action="">
+            <tr>
+                <td id="input_box">
+                    <h1 id="txt1">Registrarse</h1>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <input class="inputes" type="text"  placeholder="  Nombre"  maxlength="30" minlength="2" size="30" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,30}" alt="Introduzca su nombre aquí" autofocus required>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <input class="inputes" type="email" placeholder="  Correo" size="30" name="mail" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" id="" required>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <input class="inputes" type="password" size="30" maxlength="10" minlength="4" placeholder="  Contraseña" pattern="[A-Za-z0-9!?-]{4,10}" name="pass" id="" required>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <input class="inputes" type="password" size="30" maxlength="10" minlength="4" placeholder="  Confirma contraseña" pattern="[A-Za-z0-9!?-]{4,10}" name="confirmpass" id="" required>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <input type="submit" value="Registrarse" id="btn_registro">
+                </td>
+                <td id="buttons_box">
+                    <h1 id="txt2">Iniciar Sesión</h1>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <a href="https://www.facebook.com/"><button class="botones" id="fb_btn"><img src="resources/facebook.png" alt="" style="width: 0.5vw; height: 2vh; margin-right: 7vw; margin-left: 1vw; "> Acceder con Facebook</button></a>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <a href="https://twitter.com/home"><button class="botones" id="twt_btn"><img src="resources/gorjeo.png" alt="" style="width: 1vw; height: 2vh; margin-right: 7vw; margin-left: 1vw; "> Acceder con Twitter</button></a>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <a href="mailto:mpg.cuartero@gmail.com?Subject=Muy%20bien,%20tienes%20un%20diez"><button class="botones" id="email_btn"><img src="resources/correo.png" alt="" style="width: 1.2vw; height: 2vh; margin-right: 7vw; margin-left: 1vw; "> Acceder con Correo</button></a>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+
+                </td>
+            </tr>
+        </form>
+        </table>
+        <div  >
+            <button disabled="disabled" id="centro">></button>
+        </div>
+    
+    <div id="imagenes">
+        <div id=""><img src="resources/html5.png" alt="" style="height: 38vh; width:19vw;"></div>
+        <div id=""><img src="resources/css3.png" alt="" style="height: 38vh; width: 13vw; padding-left: 3vw;"></div>
+    </div>
+    
+
+    
+</body>
+</html>
