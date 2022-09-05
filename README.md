@@ -1,2 +1,2 @@
 # Practice - HTML/CSS/JAVASCRIPT
-Coursera test repository
+Projects and good resources.
