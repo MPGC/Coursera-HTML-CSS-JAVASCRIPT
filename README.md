@@ -1,2 +1,2 @@
-# Practice - HTML/CSS/JAVASCRIPT
+# HTML/CSS/JAVASCRIPT projects
 Projects and good resources.
