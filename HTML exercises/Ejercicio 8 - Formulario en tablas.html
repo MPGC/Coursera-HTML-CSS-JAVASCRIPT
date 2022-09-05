@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Actividad 8 - Formulario en Inglés</title>
+	<style> 
+		body{
+			background-color:#E1E1E1;
+			margin-top: 5em;
+			margin-left: 5em;
+			margin-right: 5em;
+		}
+
+		td{
+		  padding-bottom: 10px;
+  		  padding-left: 30px;
+  		  padding-right: 40px;
+		}
+
+		table{
+			margin-top: -7em;
+		}
+
+
+	</style>
+</head>
+
+	<body>
+		<main>
+			<h1 style=text-align:center;> PLEASE FILL THE DOCUMENTATION</h1>
+		<table>
+			<tr>
+				<td> Claimant name: </td>              
+				<td><input type="text"  name="text"  value="" placeholder="Claimant name" size="30px" maxlength="50"></td>
+					
+				<td> Policy number: </td>             
+				<td><input type="text"  name="text"  value="" size="30px" maxlength="20"></td>
+					
+			</tr>
+
+			<tr>
+				<td> Date of accident </td>
+				<td><input type="date"  name="text"  value="" size="30px" maxlength="10"></td>		
+				<td> Time of the accident: </td>
+				<td><input type="datetime"  name="text"  value="" size="30px" maxlength="20"></td>
+			</tr>
+
+			<tr>
+				<td >Police report number </td>
+				<td><input type="number"  name="text"  value="" size="30px" maxlength="20"></td>
+				<td> Was a citation issued</td> 
+				<td><select name="Was a citation issued">
+						   <option value="1"> NO </option> 
+						   <option value="2"> SI </option>
+				</select></td><br>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Did injuries occur as a result of the accident?</td><br>
+				<td><select name="Did injuries occur as a result of the accident">
+						   <option value="1"> NO </option> 
+						   <option value="2"> SI </option>
+				</select></td>	
+			
+				<td>Is this claim only for towing expense?</td><br>		
+				<td><select name="Is this claim only for towing expenses?">
+						   <option value="1"> NO </option> 
+						   <option value="2"> SI </option>
+				</select>
+				</td>	
+			</tr>
+
+			<tr>
+				<td>Make and model of claimant's car</td><br>
+				<td><input type="text"  name="text"  value="" size="30px" maxlength="10"></td>				
+				<td>Model year of claimant's car</td> <br>
+				<td><input type="date"  name="text"  value="r" size="30px" maxlength="10"></td>			
+			</tr>
+
+			<tr>
+				<td>Name of the other party</td><br>
+				<td><input type="text"  name="text"  value="" size="30px" maxlength="50"></td></td>
+				<td>Other party's insurance carrier</td><br>
+				<td><input type="text"  name="text"  value="" size="30px" maxlength="50"></td></td>
+			</tr>
+
+			<tr>
+				<td>Did the accident occur on a roadway</td>
+				<td><select name="Did the accident occur on a roadway">
+						   <option value="1"> NO </option> 
+						   <option value="2"> SI </option>
+				</select>
+				</td>	
+
+				<td>Describe the nature of the accident</td><br>
+				<td><textarea name="textarea" rows="10" cols="50"></textarea>
+				</td>
+			</tr>			
+
+			<tr>
+				<td>Claim amont $ </td>
+				<td><input type="number"  name="text"  value="" size="30px" maxlength="8"></td>
+			</tr>
+
+			<tr>
+		 		<td><input type="submit" name="Guardar" value="Submit Claim" size="20px"/></input></td>   
+		 		<td><input type="submit" name="Guardar" value="Cancel"/></input></td>
+			</tr>
+
+		</table>
+
+		</main>
+	</body>
+</html>
