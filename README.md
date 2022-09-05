@@ -1,2 +1,2 @@
-# Practicing-HTML/CSS/JAVASCRIPT
+# Practice - HTML/CSS/JAVASCRIPT
 Coursera test repository
