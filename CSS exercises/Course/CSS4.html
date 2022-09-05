@@ -1,0 +1,106 @@
+<!-- CSS 4 -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Hoophrey & Partner</title>
+	<link rel="icon" href="https://static.vecteezy.com/system/resources/thumbnails/000/565/028/small/vector60-926-01.jpg">
+
+	<style type="text/css">
+		html,body{
+			margin: 0;
+			padding: 0;
+		}
+		header{
+			background: #6A5482;
+			width: auto;
+			height: 20vh;
+		}
+		main{
+			background-image: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+			background-repeat: no-repeat;
+  			background-size: cover;
+			width: auto;
+			height: 75vh;
+		}
+		footer{
+			background: #6A5482;
+			width: auto;
+			height: 5vh;
+		}
+
+		#companyName{
+			position: absolute;
+			width: 30vw;
+			height: 15vh;
+			top: 2.5vh;
+			left: 10vw;
+			text-align: center;
+			padding-top: 0;
+		}
+		#navButtons{
+			position: absolute;
+			width: 30vw;
+			height: 15vh;
+			top: 2.5vh;
+			left: 50vw;
+			padding-top: 0;
+		}
+		#news{
+			background-color: #6A5482;
+			position: relative;
+			width: 35vw;
+			height: 22vh;
+			top: 35vh;
+			left: 2.5vw;
+			padding-left: 1vw;
+			opacity: 0.8;
+		}
+		.button:hover{
+			color: black;
+			opacity: 0.4;
+			user-select: none;
+			/*cursor:none; sirve para que desaparezca el cursor.*/
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div id="companyName">
+			<h1 style="position: relative; top: -3vh; color: white;text-shadow: 0.5px 0.5px black;">Hoophrey & Partner</h1>
+			<h3 style="position: relative; top: -6vh; color: white;text-shadow: 0.5px 0.5px black;">Best lawyers in town</h3>
+		</div>
+		<div id="navButtons">
+			<table style="margin-top: 2.5vh;margin-left: 1vw;border-spacing: 1vw 0vh;">
+				<tr>
+					<td>
+						<p class="button" style="color: white;text-shadow: 0.5px 0.5px black;"><b>Company</b></p>
+					</td>
+					<td>
+						<p class="button" style="color: white;text-shadow: 0.5px 0.5px black;"><b>Clients</b></p>
+					</td>
+					<td>
+						<p class="button" style="color: white;text-shadow: 0.5px 0.5px black;"><b>ShowCase</b></p>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</header>
+	<main>
+		<div id="news">
+			<p style="position: absolute;color: white;text-shadow: 0.5px 0px white;">	
+				<b>Latest News:</b><br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. 
+			</p>
+		</div>
+	</main>
+	<footer>
+		<div style="padding-top: 1vh; padding-right: 1vw;text-align: right;">
+			<p style="margin-top: 0; color: white;">Some footer text</p>
+		</div>
+	</footer>
+</body>
+</html>
